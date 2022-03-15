@@ -1,0 +1,14 @@
+#+TITLE: Site
+#+hugo_base_dir: ./
+* Home
+:properties:
+:export_hugo_section: /
+:export_file_name: _index
+:end:
+** Heading 1
+Testing, testing, 1, 2, 3...
+* Footnotes
+* COMMENT Local Variables :ARCHIVE:
+# Local Variables:
+# eval: (org-hugo-auto-export-mode)
+# End:
