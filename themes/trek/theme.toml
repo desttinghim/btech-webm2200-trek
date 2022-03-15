@@ -4,18 +4,12 @@
 name = "Trek"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
+description = "Theme Made for Example"
 homepage = "http://example.com/"
-tags = []
+tags = ["company", "newsletter"]
 features = []
 min_version = "0.41.0"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Louis Pearson"
+  homepage = "https://louispearson.work"

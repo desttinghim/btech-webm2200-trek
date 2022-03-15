@@ -7,6 +7,15 @@
 :end:
 ** Heading 1
 Testing, testing, 1, 2, 3...
+
+This is the homepage.
+* Newsletter
+** TODO Example
+:properties:
+:export_file_name: example.md
+:export_date: 2022-03-15
+:end:
+A paragraph.
 * Footnotes
 * COMMENT Local Variables :ARCHIVE:
 # Local Variables:

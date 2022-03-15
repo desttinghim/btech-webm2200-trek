@@ -10,5 +10,5 @@ theme = "trek"
         weight = 1
     [[menu.main]]
         name="Newsletter"
-        url = "/newsletter/"
+        url = "/posts/"
         weight = 2
