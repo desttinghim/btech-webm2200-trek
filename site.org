@@ -1,23 +1,72 @@
 #+TITLE: Site
-#+hugo_base_dir: ./
-* Home
-:properties:
-:export_hugo_section: /
-:export_file_name: _index
-:end:
-** Heading 1
-Testing, testing, 1, 2, 3...
+* Final Project
+:LOGBOOK:
+CLOCK: [2022-03-16 Wed 16:11]
+:END:
+In the final project use what you have learned in the course to create the home page of the bike website that you have sketched out and prototyped in the course.
 
-This is the homepage.
-* Newsletter
-** TODO Example
-:properties:
-:export_file_name: example.md
-:export_date: 2022-03-15
-:end:
-A paragraph.
+Your website will be graded in regards to good design principles.
+
+In general I will be looking for the following things:
+
+1. Logo in a prominent place on the website such as in the upper right hand corner or someplace on the navigation bar or in the "hero".
+2. Contact information in the form of a link to a contact page or launch a modal, in the footer, and social icons in a prominent location.
+3. Navigation in an easy to use, easy to locate location (no menu button for desktop navigation please).
+4. Good images that correspond to your website and help tell the story of your website.
+5. It should be clear why the website is different or the company is different from anyone else (I don't expect you to make up a bunch of content but you should have headers before your content that help explain what the paragraph is about).
+6. There should be a clear and prominent call to action.
+7. There needs to be a way to sign up for a newsletter somewhere on the page.
+8. The design must be responsive.
+9. The website should follow good design principles in regards to color, font, image and content placement and have a good UX and modern feel.
+
+You may use whatever development platform you are most comfortable with (WordPress, Bootstrap, Strait coding, ect...).
+
+The point of this assignment is to make a website that you can use for your portfolio, so design a website that you thing would help get you a job or that you feel would be worth a client paying you a $1000 or more for your work.
+
+Please feel free to talk to an instructor before submitting your assignment
+
+Submit a URL of your live page on your server for grading.
+** Rubric
+| Criteria                  | Ratings (pts) |                |          | Pts |
+| /                         |             < |                |        > |     |
+|                           |    Full Marks | Partial Credit | No Marks |     |
+|---------------------------+---------------+----------------+----------+-----|
+| [[Prominently Placed Logo]]   |            10 |              5 |        0 |  10 |
+| [[Contact Info Link]]         |            10 |              5 |        0 |  10 |
+| [[Easy to Use Navigation]]    |            10 |              5 |        0 |  10 |
+| [[*Corresponding Images][Corresponding Images]]      |            10 |              5 |        0 |  10 |
+| [[*Unique Layout and Content][Unique Layout and Content]] |            10 |              5 |        0 |  10 |
+| [[*Call to Action][Call to Action]]            |            10 |              5 |        0 |  10 |
+| [[*Newsletter Sign Up][Newsletter Sign Up]]        |            10 |              5 |        0 |  10 |
+| [[*Responsiveness][Responsiveness]]            |            10 |              5 |        0 |  10 |
+| [[*Cohesive Design Language][Cohesive Design Language]]  |            10 |              5 |        0 |  10 |
+** Grading Details
+*** Prominently Placed Logo
+Logo in a prominent place on the website such as in the upper right hand corner or someplace on the navigation bar or in the "hero".
+*** Contact Info Link
+Contact information in the form of a link to a contact page or launch a modal, in the footer, and social icons in a prominent location.
+*** Easy to Use Navigation
+Navigation in an easy to use, easy to locate location (no menu button for desktop navigation please).
+*** Corresponding Images
+Good images that correspond to your website and help tell the story of your website.
+*** Unique Layout and Content
+It should be clear why the website is different or the company is different from anyone else (I don't expect you to make up a bunch of content but you should have headers before your content that help explain what the paragraph is about).
+*** Call to Action
+There should be a clear and prominent call to action.
+*** Newsletter Sign Up
+There needs to be a way to sign up for a newsletter somewhere on the page.
+*** Responsiveness
+The design must be responsive.
+*** Cohesive Design Language
+The website should follow good design principles in regards to color, font, image and content placement and have a good UX and modern feel.
+* Progress
+** DONE Prominently placed logo
+** TODO Contact info link
+** DONE Easy to use navigation
+** TODO Corresponding Images
+** TODO Unique Layout and Content
+** TODO Call to Action
+** TODO Newsletter Sign Up
+** TODO Responsiveness
+** TODO Cohesive Design Language
 * Footnotes
-* COMMENT Local Variables :ARCHIVE:
-# Local Variables:
-# eval: (org-hugo-auto-export-mode)
-# End:
