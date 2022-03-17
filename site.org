@@ -1,7 +1,8 @@
 #+TITLE: Site
 * Final Project
 :LOGBOOK:
-CLOCK: [2022-03-16 Wed 16:11]
+CLOCK: [2022-03-17 Thu 00:58]--[2022-03-17 Thu 02:05] =>  1:07
+CLOCK: [2022-03-16 Wed 16:11]--[2022-03-16 Wed 09:00] =>  8:34
 :END:
 ** Description
 In the final project use what you have learned in the course to create the home page of the bike website that you have sketched out and prototyped in the course.
