@@ -1,5 +1,6 @@
 <script>
  import Layout from "./_layout.svelte";
+ import Image from "./image.svelte"
 </script>
 <!-- Help from https://tailwindcomponents.com/component/hero-with-background-image -->
 <Layout>
@@ -16,7 +17,7 @@
                     <div class="text-7xl">Adventure</div>
                 </h1>
                 <button class="w-full px-4 py-2 mt-4 lg:w-auto rounded-md
-                               text-sm font-medium text-white uppercase
+                               text-base font-semibold text-white uppercase
                                transition-colors duration-200 transform
                                bg-orange-600 hover:bg-orange-500 focus:outline-none focus:bg-orange-500">
                     Shop Now
@@ -26,20 +27,17 @@
     </div>
     <div class="p-4 flex items-center space-x-4 w-full h-full">
         <div class="p-4 bg-white rounded w-full h-full text-center space-y-4">
-            <div about="/bike-shop-16x9">
-                <img class="w-full"
-                    src="/bike-shop-16x9.jpg" alt="A man in a shop surrounded by bikes." />
-                <p>Photo by <a href="https://unsplash.com/@tom607?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tom Austin</a> on <a href="https://unsplash.com/collections/zN2b34UB6vk/intro-to-design---trek-bikes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
-            </div>
+            <Image src="/bike-shop-16x9.jpg" alt="A man in a shop surrounded by bikes.">
+                <span slot="attribution">Photo by <a href="https://unsplash.com/@tom607?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tom Austin</a> on <a href="https://unsplash.com/collections/zN2b34UB6vk/intro-to-design---trek-bikes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+            </Image>
             <p class="font-bold text-xl">Want to keep up with our latest products?</p>
             <button class="p-2 bg-orange-500 rounded text-white">Read Newsletter</button>
         </div>
         <div class="p-4 bg-white rounded w-full h-full text-center space-y-4">
-            <div about="/broken-bike-16x9.jpg">
-                <img class="aspect-video"
-                    src="/broken-bike-16x9.jpg" alt="A bike missing it's tires and seatpost." />
-                <p>Photo by <a href="https://unsplash.com/@lg17?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lance Grandahl</a> on <a href="https://unsplash.com/collections/zN2b34UB6vk/intro-to-design---trek-bikes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
-            </div>
+
+            <Image src="/broken-bike-16x9.jpg" alt="A bike missing it's tires and seatpost." >
+                <span slot="attribution">Photo by <a href="https://unsplash.com/@lg17?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lance Grandahl</a> on <a href="https://unsplash.com/collections/zN2b34UB6vk/intro-to-design---trek-bikes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+            </Image>
             <p class="font-bold text-xl">Need help with your bike?</p>
             <button class="p-2 bg-orange-500 rounded text-white">Contact Support</button>
         </div>

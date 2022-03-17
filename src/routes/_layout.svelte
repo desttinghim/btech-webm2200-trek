@@ -33,7 +33,9 @@
                dark:text-gray-400
                ">
     <slot name="footer"></slot>
+    {#if $$slots.footer}
     <hr />
+    {/if}
     <div class="md:flex
                 md:items-center
                 md:justify-between
