@@ -1,5 +1,5 @@
 <script>
- import Image from "./image.svelte"
+ import Image from "$lib/components/image.svelte"
 </script>
 <!-- Help from https://tailwindcomponents.com/component/hero-with-background-image -->
 <header

@@ -1,6 +1,6 @@
 <script>
  import "../app.css";
- import Navbar from "./navbar.svelte";
+ import Navbar from "$lib/components/navbar.svelte";
 
  const menuItems = [
      {name: "Home", link: "/", hideInNavbar: true},
