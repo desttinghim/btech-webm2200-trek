@@ -3,6 +3,7 @@
 :LOGBOOK:
 CLOCK: [2022-03-16 Wed 16:11]
 :END:
+** Description
 In the final project use what you have learned in the course to create the home page of the bike website that you have sketched out and prototyped in the course.
 
 Your website will be graded in regards to good design principles.
@@ -61,12 +62,12 @@ The design must be responsive.
 The website should follow good design principles in regards to color, font, image and content placement and have a good UX and modern feel.
 * Progress
 ** DONE Prominently placed logo
-** TODO Contact info link
+** DONE Contact info link
 ** DONE Easy to use navigation
 ** DONE Corresponding Images
 ** TODO Unique Layout and Content
 ** DONE Call to Action
-** TODO Newsletter Sign Up
+** DONE Newsletter Sign Up
 ** DONE Responsiveness
 ** DONE Cohesive Design Language
 * Footnotes

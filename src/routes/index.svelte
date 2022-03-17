@@ -30,7 +30,8 @@
             <Image src="/bike-shop-16x9.jpg" alt="A man in a shop surrounded by bikes.">
                 <span slot="attribution">Photo by <a href="https://unsplash.com/@tom607?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tom Austin</a> on <a href="https://unsplash.com/collections/zN2b34UB6vk/intro-to-design---trek-bikes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
             </Image>
-            <p class="font-bold text-xl">Want to keep up with our latest products?</p>
+            <p class="font-semibold text-xl">Find out about our latest happenings!</p>
+            <p class="text-justify">We like to keep our customers up to date with the awesome bikes we're building by sending out a newsletter.</p>
             <button class="p-2 bg-orange-500 rounded text-white">Read Newsletter</button>
         </div>
         <div class="p-4 bg-white rounded w-full h-full text-center space-y-4">
@@ -38,9 +39,25 @@
             <Image src="/broken-bike-16x9.jpg" alt="A bike missing it's tires and seatpost." >
                 <span slot="attribution">Photo by <a href="https://unsplash.com/@lg17?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lance Grandahl</a> on <a href="https://unsplash.com/collections/zN2b34UB6vk/intro-to-design---trek-bikes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
             </Image>
-            <p class="font-bold text-xl">Need help with your bike?</p>
+            <p class="font-semibold text-xl">Need help with your bike?</p>
+            <p class="text-justify">We're proud of the quality of our bikes, but life happens. Visit our support center and get help to continue your adventure!</p>
             <button class="p-2 bg-orange-500 rounded text-white">Contact Support</button>
         </div>
+    </div>
+    <div class="px-4 pb-4 w-full h-full">
+        <form on:submit|preventDefault
+            class="p-4 bg-gray-100 rounded w-full h-full text-center">
+            <label for="email"
+                   class="text-xl font-semibold" >Sign up for our Newsletter!</label>
+            <p class="pb-4">Get our latest accomplishments directly in your email.</p>
+            <span class="flex justify-between">
+                <input type="text" name="email" value="" placeholder="Your Email"
+                    class="rounded-l w-full p-2 focus:rounded-r" />
+                <button type="submit"
+                        class="rounded-r bg-orange-500 p-2 text-white focus:rounded-l" >
+                    Subscribe</button>
+            </span>
+        </form>
     </div>
     <div slot="footer">
         <p class="text-sm">Mountain Bike Photo by <a href="https://unsplash.com/@dhika88?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andhika Soreng</a> on <a href="https://unsplash.com/s/photos/mountain-bike?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
