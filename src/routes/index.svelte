@@ -5,8 +5,7 @@
 <!-- Help from https://tailwindcomponents.com/component/hero-with-background-image -->
 <!-- Using style here because tailwind can't compute the url correctly without having
 the full string available in the source. -->
-<header style="background: top/cover url({assets}/mountain-bike.jpg); "
-        class="w-full h-96 bg-top bg-cover">
+<header class="w-full h-96 bg-top bg-cover bg-mountain-bike">
     <div class="flex items-center justify-center
                 w-full h-full
                 bg-gray-900 bg-opacity-50">
