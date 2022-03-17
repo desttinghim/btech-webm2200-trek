@@ -63,10 +63,10 @@ The website should follow good design principles in regards to color, font, imag
 ** DONE Prominently placed logo
 ** TODO Contact info link
 ** DONE Easy to use navigation
-** TODO Corresponding Images
+** DONE Corresponding Images
 ** TODO Unique Layout and Content
-** TODO Call to Action
+** DONE Call to Action
 ** TODO Newsletter Sign Up
-** TODO Responsiveness
-** TODO Cohesive Design Language
+** DONE Responsiveness
+** DONE Cohesive Design Language
 * Footnotes
