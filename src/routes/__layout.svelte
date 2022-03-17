@@ -1,9 +1,10 @@
 <script>
  import "../app.css";
  import Navbar from "$lib/components/navbar.svelte";
+ import { base, assets } from "$app/paths";
 
  const menuItems = [
-     {name: "Home", link: "/", hideInNavbar: true},
+     {name: "Home", link: base, hideInNavbar: true},
      {name: "News", link: "#!"},
      {name: "Contact", link: "#!"},
      {name: "Support", link: "#!"},
@@ -14,7 +15,7 @@
 <header>
     <Navbar
         search
-        home={{name: "Trek", link: "/"}}
+        home={{name: "Trek", link: base}}
         item={menuItems}
     />
 </header>

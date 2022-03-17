@@ -1,7 +1,6 @@
 <script>
  export let src;
  export let alt;
- export let attribution;
 </script>
 
 <div about="{src}">

@@ -1,10 +1,12 @@
 <script>
  import Image from "$lib/components/image.svelte"
+ import { assets } from "$app/paths";
 </script>
 <!-- Help from https://tailwindcomponents.com/component/hero-with-background-image -->
-<header
-        class="w-full h-96
-            bg-top bg-cover bg-[url(/mountain-bike.jpg)]">
+<!-- Using style here because tailwind can't compute the url correctly without having
+the full string available in the source. -->
+<header style="background: top/cover url({assets}/mountain-bike.jpg); "
+        class="w-full h-96 bg-top bg-cover">
     <div class="flex items-center justify-center
                 w-full h-full
                 bg-gray-900 bg-opacity-50">
@@ -31,7 +33,7 @@
 <div class="p-4 grid grid-cols-1 md:grid-cols-2 gap-4 w-full h-full">
     <div class="p-4 bg-white rounded text-center space-y-4
                 flex flex-col">
-        <Image src="/bike-shop-16x9.jpg" alt="A man in a shop surrounded by bikes.">
+        <Image src="{assets}/bike-shop-16x9.jpg" alt="A man in a shop surrounded by bikes.">
             <span slot="attribution">Photo by <a href="https://unsplash.com/@tom607?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tom Austin</a> on <a href="https://unsplash.com/collections/zN2b34UB6vk/intro-to-design---trek-bikes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
         </Image>
         <p class="font-semibold text-xl">Find out about our latest happenings!</p>
@@ -40,7 +42,7 @@
     </div>
     <div class="p-4 bg-white rounded text-center space-y-4
                 flex flex-col">
-        <Image src="/broken-bike-16x9.jpg" alt="A bike missing it's tires and seatpost." >
+        <Image src="{assets}/broken-bike-16x9.jpg" alt="A bike missing it's tires and seatpost." >
             <span slot="attribution">Photo by <a href="https://unsplash.com/@lg17?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lance Grandahl</a> on <a href="https://unsplash.com/collections/zN2b34UB6vk/intro-to-design---trek-bikes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
         </Image>
         <p class="font-semibold text-xl">Need help with your bike?</p>
