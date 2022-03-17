@@ -89,7 +89,7 @@
         </svg>
     </button>
     <!-- Hamburger Icon -->
-    <div class=" w-full
+    <div class="w-full
                 md:flex
                 md:items-center
                 md:w-auto"
@@ -101,10 +101,12 @@
                     md:justify-between
                     md:pt-0" >
             {#each item as menu}
+            {#if !menu.hideInNavbar}
             <li>
                 <a class="md:p-4 py-2 block hover:text-orange-400 dark:text-white"
                     href="{menu.link}">{menu.name}</a>
             </li>
+            {/if}
             {/each}
         </ul>
     </div>
